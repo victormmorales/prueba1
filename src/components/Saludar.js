@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Saludar({ name, edad }) {
-  console.log(name);
-
+export default function Saludar({ userInfo }) {
+  console.log(userInfo);
   return (
     <div>
-      <h2>
-        Hola {name}, tiene {edad} años
-      </h2>
+      <p>
+        Hola {userInfo.nombre}, tiene {userInfo.edad} años. Su color favorito es{" "}
+        {userInfo.color}
+      </p>
     </div>
   );
 }
