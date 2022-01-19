@@ -1,6 +1,6 @@
 import React from "react";
 
-function HolaMundo() {
+export default function HolaMundo() {
   return (
     <div>
       <h1>Hola Mundo</h1>
@@ -9,4 +9,10 @@ function HolaMundo() {
   );
 }
 
-export default HolaMundo;
+export function AdiosMundo() {
+  return (
+    <div>
+      <h3>Adios</h3>
+    </div>
+  );
+}

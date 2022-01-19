@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import HolaMundo from "./components/HolaMundo";
+import HolaMundo, { AdiosMundo } from "./components/HolaMundo";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <HolaMundo />
+        <AdiosMundo />
       </header>
     </div>
   );
